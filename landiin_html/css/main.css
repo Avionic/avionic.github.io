@@ -56,29 +56,29 @@ body {font: 16px/26px 'RobotoLight';}
 
 /* Header Heading Container Text */
 .header-container h3{
-	color: #38D3FF;
+	color: #242d32;
 }
 
 /* Main Container Background Colour */
 .main-container, .quote-container .lipup:before, .quote-container .lipup:after{
-	background: #7CF7D4;
+	background: #fff;
 	color: #6a727c;
 }
 
 /* Quote Container Background Colour */
 .quote-container, .footer-container .lipup:before, .footer-container .lipup:after, .quote-container .lipup{
-	background: #F7F0E0;
+	background: #f3f3f3;
 }
 
 /* Footer Container Background Colour */
 .footer-container, .footer-container .lipup {
-	background: #524656;
+	background: #242d32;
 	color: #a7b3b9;
 }
 
 /* Feature Colour */
 cite, .footer-container li a:hover{
-	color: #0072FF;
+	color: #0ca2d9;
 }
 
 /* Main Container Headings Colour */
@@ -112,8 +112,8 @@ ul.social-link a{
    ========================================================================== */
 .header-container .logo{
 	position: relative;
-	width: 140px; /* Adjust Width for Logo if needed */
-	margin: 0 auto 2em;
+	width: 190px; /* Adjust Width for Logo if needed */
+	margin: 0 auto 3em;
 }
 
 
@@ -135,7 +135,7 @@ ul.social-link a{
 .header-container h3{
 	font-family: 'ralewaylight';
 	font-weight: normal;
-	font-size: 1.3em;
+	font-size: 2.2em;
 	line-height: 1.2;
 	margin-bottom: 0;
 }
@@ -400,7 +400,7 @@ em{
 	background: #5a6c79; /* Change colour of iphone nav dots on hover */
 }
 .fader .flex-control-paging li a.flex-active, .quote .flex-control-paging li a.flex-active { 
-	background: #0072FF; /* Change colour of iphone nav dots when active */
+	background: #0ca2d9; /* Change colour of iphone nav dots when active */
 	cursor: default;
 }
 .fader .slides li img{
@@ -625,7 +625,7 @@ ul.social-link a{
 		border-bottom: 1px solid #ebebeb;
 	}
 	.header-container h3{
-		font-size: 1.3em;
+		font-size: 1.8em;
 	}
 	.fader{
 		background-size: 300px 597px;
