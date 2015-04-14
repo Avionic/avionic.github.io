@@ -33,14 +33,23 @@
 	height: 100%!important;
 }
 
-.pull-right{
-	float: right!important;
+@media only screen and (min-width: 480px) {
+
+	.footer-link__mixpanel{
+		float: right!important;
+	}
+
+	#footer-links li{
+		float: left;
+	}
+
 }
 
-#footer-links li{
-	float: left;
+@media only screen and (max-width: 480px) {
+	.footer-link__mixpanel{
+		margin-top: 20px;
+	}
 }
-
 
 
 
