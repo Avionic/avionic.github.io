@@ -1,9 +1,9 @@
 /* ==========================================================================
    Table of Contents
-   ========================================================================== 
-   
+   ==========================================================================
+
 	00. Reset Defaults
-	01. Main Theme Colours   
+	01. Main Theme Colours
 	02. Logo
 	03. Header Container
 	04. Typography
@@ -12,25 +12,41 @@
 	07. Slider
 	08. Footer
 	09. Lip Ups
-	10. Insert Author's custom styles 
+	10. Insert Author's custom styles
 	11. Media Queries 1140px
 	12. Media Queries 768px
 	13. Media Queries 480px
 	14. Media Queries 320px
 	15. Helper classes
 	16. Fonts
-	17. Print Styles 
-   
-   
+	17. Print Styles
+
+
    ========================================================================== */
-   
-   
- 
- 
+
+.gfyitem{
+	top:0!important;
+}
+
+.gfyitem video, .gfyitem > div, .gfyitem .gfyPreLoadCanvas {
+	width: 100%!important;
+	height: 100%!important;
+}
+
+.pull-right{
+	float: right!important;
+}
+
+#footer-links li{
+	float: left;
+}
+
+
+
 
 /* ==========================================================================
    00. Reset Defaults
-   ========================================================================== */ 
+   ========================================================================== */
 
 html, button, input, select, textarea { color: #222; }
 body { font-size: 1em; line-height: 1.4; }
@@ -51,7 +67,7 @@ body {font: 16px/26px 'RobotoLight';}
 
 /* Header Container Text */
 .header-container {
-    color: #747a83;  
+    color: #747a83;
 }
 
 /* Header Heading Container Text */
@@ -104,7 +120,7 @@ ul.social-link a{
 .footer-container footer h1{
 	color: #fff;
 }
-	
+
 
 
 /* ==========================================================================
@@ -188,7 +204,7 @@ h1, h2, h3, h4, h5, h6{
 	font-style: normal;
 	font-weight: normal;
 	line-height: 115%;
-}   
+}
 h2{
 	font-family: 'ralewaymedium';
 	font-weight: normal;
@@ -226,7 +242,7 @@ em{
 .stores{
 	margin: 0;
 	padding: 0;
-}   
+}
 .stores li{
 	list-style-type: none;
 	display: inline-block;
@@ -264,7 +280,7 @@ em{
 .full{
 	width: 100%;
 	float: none;
-} 
+}
 .half{
 	width: 48%;
 	margin-right: 4%;
@@ -323,12 +339,12 @@ em{
 .stack.right{
 	clear: right;
 	float: right;
-}   
+}
 .main-container article{
 	margin-bottom: 3em;
 }
 .quote-container{
-	position: relative;	
+	position: relative;
 }
 .quote-container .wrapper{
 	padding-bottom: 60px;
@@ -339,7 +355,7 @@ em{
 /* ==========================================================================
    07. Slider
    ========================================================================== */
-   
+
 .fader{
 	position: absolute;
 	height: 724px;
@@ -365,7 +381,7 @@ em{
 /* ==========================================================================
    07. Slider - continued
    ========================================================================== */
-.fader .flexslider1{
+.fader .flexslider1, .gfyitem{
 	width: 291px;
 	height: 516px;
 	position: relative;
@@ -383,31 +399,31 @@ em{
 	bottom: -15px;
 }
 .flex-control-paging li a {
-	width: 13px; 
-	height: 13px; 
-	display: block; 
+	width: 13px;
+	height: 13px;
+	display: block;
 	background: #485762; /* Change colour of iphone nav dots */
-	cursor: pointer; 
-	text-indent: -9999px; 
+	cursor: pointer;
+	text-indent: -9999px;
 	border-radius: 20px;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
 	-ms-transition: all 300ms ease-in-out;
 	-o-transition: all 300ms ease-in-out;
-	transition: all 300ms ease-in-out; 
+	transition: all 300ms ease-in-out;
 }
-.fader .flex-control-paging li a:hover { 
+.fader .flex-control-paging li a:hover {
 	background: #5a6c79; /* Change colour of iphone nav dots on hover */
 }
-.fader .flex-control-paging li a.flex-active, .quote .flex-control-paging li a.flex-active { 
+.fader .flex-control-paging li a.flex-active, .quote .flex-control-paging li a.flex-active {
 	background: #0072FF; /* Change colour of iphone nav dots when active */
 	cursor: default;
 }
 .fader .slides li img{
 	width: 100%;
 }
-.main { 
-	padding: 40px 0 50px; 
+.main {
+	padding: 40px 0 50px;
 }
 .main-container .main{
 	min-height: 400px;
@@ -439,10 +455,10 @@ cite{
 	padding-bottom: .5em;
 	width: 244px;
 }
-.quote .flex-control-paging li a:hover { 
+.quote .flex-control-paging li a:hover {
 	background: #5a6c79; /* Change colour of iphone nav dots on hover */
 }
-.quote .flex-control-paging li a.flex-active { 
+.quote .flex-control-paging li a.flex-active {
 	cursor: default;
 }
 
@@ -450,8 +466,8 @@ cite{
 
 
 /* ==========================================================================
-   08. FOOTER 
-   ========================================================================== */ 
+   08. FOOTER
+   ========================================================================== */
 .footer-container {
     padding-bottom: 100px;
     padding-top: 40px;
@@ -462,7 +478,7 @@ cite{
 	border-top: 1px solid #4e5a60;
 	margin-top: 3em;
 	margin-bottom: 3em;
-}   
+}
 .footer-container ul{
 	padding: 0;
 	margin: 0;
@@ -489,8 +505,8 @@ cite{
 	font-weight: normal;
 	margin-bottom: 1em;
 }
-.footer-container footer { 
-	padding: 20px 0; 
+.footer-container footer {
+	padding: 20px 0;
 }
 ul.social-link li:before{
 	display: none;
@@ -500,7 +516,7 @@ ul.social-link{
 	margin-bottom: 2.5em;
 }
 ul.social-link li{
-	display: inline;	
+	display: inline;
 	padding: 0;
 	margin: 0 .1em;
 }
@@ -520,7 +536,7 @@ ul.social-link a{
 /* ==========================================================================
    09. Lip Ups
    ========================================================================== */
-   
+
 .lipup{
 	width: 100px;
 	height: 35px;
@@ -572,11 +588,11 @@ ul.social-link a{
 /* ==========================================================================
    12. Media Queries 768
    ========================================================================== */
-   
-@media only screen and (max-width: 768px) { 
+
+@media only screen and (max-width: 768px) {
 	.wrapper{
 		width: 480px;
-		margin: 0 auto; 
+		margin: 0 auto;
 	}
 	.header-container .wrapper{
 		padding-top: 50px;
@@ -612,8 +628,8 @@ ul.social-link a{
 	.wrapper{
 		max-width: 320px;
 		width: 100%;
-		margin: 0 auto; 
-	} 
+		margin: 0 auto;
+	}
 	.fourth{
 		width: 100%;
 		text-align: center;
@@ -644,7 +660,7 @@ ul.social-link a{
 		background-size: 300px 597px;
 	}
 	}
-	.fader .flexslider1{
+	.fader .flexslider1, .gfyitem{
 		width: 240px;
 		height: 428px;
 		position: relative;
@@ -666,9 +682,9 @@ ul.social-link a{
 @media only screen and (max-width: 320px) {
 	.wrapper{
 		width: 94%;
-		margin: 0 auto; 
+		margin: 0 auto;
 		max-width: none;
-	} 
+	}
 	.fourth{
 		width: 100%;
 		text-align: center;
@@ -679,7 +695,7 @@ ul.social-link a{
 		margin: 0;
 		border-bottom: 1px solid #ebebeb;
 	}
-	
+
 }
 
 
