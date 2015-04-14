@@ -67,34 +67,34 @@ body {font: 16px/26px 'RobotoLight';}
 
 /* Header Container Text */
 .header-container {
-    color: #747a83;
+    color: #CBD3D7;
 }
 
 /* Header Heading Container Text */
 .header-container h3{
-	color: #38D3FF;
+	color: #CBD3D7;
 }
 
 /* Main Container Background Colour */
 .main-container, .quote-container .lipup:before, .quote-container .lipup:after{
-	background: #7CF7D4;
+	background: #eaeaea;
 	color: #6a727c;
 }
 
 /* Quote Container Background Colour */
 .quote-container, .footer-container .lipup:before, .footer-container .lipup:after, .quote-container .lipup{
-	background: #F7F0E0;
+	background: #D8D8D8;
 }
 
 /* Footer Container Background Colour */
 .footer-container, .footer-container .lipup {
-	background: #524656;
+	background: #262C33;
 	color: #a7b3b9;
 }
 
 /* Feature Colour */
 cite, .footer-container li a:hover{
-	color: #0072FF;
+	color: #0ca2d9;
 }
 
 /* Main Container Headings Colour */
@@ -128,7 +128,7 @@ ul.social-link a{
    ========================================================================== */
 .header-container .logo{
 	position: relative;
-	width: 140px; /* Adjust Width for Logo if needed */
+	width: 150px; /* Adjust Width for Logo if needed */
 	margin: 0 auto 2em;
 }
 
@@ -143,7 +143,7 @@ ul.social-link a{
 }
 .header-container .wrapper{
 	text-align: center;
-	padding-top: 90px;
+	padding-top: 50px;
 }
 #masthead{
 	height: 680px;
@@ -151,7 +151,7 @@ ul.social-link a{
 .header-container h3{
 	font-family: 'ralewaylight';
 	font-weight: normal;
-	font-size: 1.3em;
+	font-size: 1.8em;
 	line-height: 1.2;
 	margin-bottom: 0;
 }
@@ -351,7 +351,6 @@ em{
 }
 
 
-
 /* ==========================================================================
    07. Slider
    ========================================================================== */
@@ -362,7 +361,7 @@ em{
 	width: 364px;
 	background: url(../img/iphone.png) no-repeat center 0; /*Image of iphone 5 */
 	background-size: 364px 724px;
-	margin: -360px auto 0 -182px;
+	margin: -335px auto 0 -182px;
 	left: 50%;
 }
 @media (min--moz-device-pixel-ratio: 1.5),
@@ -415,8 +414,9 @@ em{
 .fader .flex-control-paging li a:hover {
 	background: #5a6c79; /* Change colour of iphone nav dots on hover */
 }
+
 .fader .flex-control-paging li a.flex-active, .quote .flex-control-paging li a.flex-active {
-	background: #0072FF; /* Change colour of iphone nav dots when active */
+	background: #0ca2d9; /* Change colour of iphone nav dots when active */
 	cursor: default;
 }
 .fader .slides li img{
@@ -490,6 +490,7 @@ cite{
 	list-style-type: none;
 	margin-left: 30px;
 }
+
 .footer-container li:first-child{
 	margin-left: 0;
 }
@@ -589,7 +590,8 @@ ul.social-link a{
    12. Media Queries 768
    ========================================================================== */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1140px) {
+
 	.wrapper{
 		width: 480px;
 		margin: 0 auto;
@@ -599,6 +601,7 @@ ul.social-link a{
 	}
 	.fader{
 		position: relative;
+		margin-top: -275px;
 	}
 	.fourth, .right{
 		float: none;
@@ -641,11 +644,14 @@ ul.social-link a{
 		border-bottom: 1px solid #ebebeb;
 	}
 	.header-container h3{
-		font-size: 1.3em;
+		font-size: 1.5em;
+	}
+	.header-container p{
+		font-size: 16px;
 	}
 	.fader{
 		background-size: 300px 597px;
-		margin: -360px auto 0 -150px;
+		margin: -295px auto 0 -150px;
 		height: 597px;
 		width: 300px;
 		padding-bottom: 1em;
