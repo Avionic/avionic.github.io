@@ -76,23 +76,23 @@ body {font: 16px/26px 'RobotoLight';}
 
 /* Header Container Text */
 .header-container {
-    color: #CBD3D7;
+    color: #fff;
 }
 
 /* Header Heading Container Text */
 .header-container h3{
-	color: #CBD3D7;
+	color: #fff;
 }
 
 /* Main Container Background Colour */
 .main-container, .quote-container .lipup:before, .quote-container .lipup:after{
-	background: #eaeaea;
-	color: #6a727c;
+	background: #f2f2f2;
+	color: #333538;
 }
 
 /* Quote Container Background Colour */
 .quote-container, .footer-container .lipup:before, .footer-container .lipup:after, .quote-container .lipup{
-	background: #D8D8D8;
+	background: #DfDfDf;
 }
 
 /* Footer Container Background Colour */
@@ -108,7 +108,7 @@ cite, .footer-container li a:hover{
 
 /* Main Container Headings Colour */
 .main-container h2{
-	color: #303337;
+	color: #111111;
 }
 
 /* Footer Container Links */
