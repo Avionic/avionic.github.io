@@ -48,6 +48,7 @@
 @media only screen and (max-width: 480px) {
 	.footer-link__mixpanel{
 		margin-top: 20px;
+		margin-left: 0!important;
 	}
 }
 
