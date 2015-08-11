@@ -84,6 +84,12 @@ body {font: 16px/26px 'RobotoLight';}
 	color: #fff;
 }
 
+/* TM in header */
+.header-container h3 span{
+	font-size: 8px;
+	vertical-align: text-top;
+}
+
 /* Main Container Background Colour */
 .main-container, .quote-container .lipup:before, .quote-container .lipup:after{
 	background: #f2f2f2;
@@ -103,7 +109,7 @@ body {font: 16px/26px 'RobotoLight';}
 
 /* Feature Colour */
 cite, .footer-container li a:hover{
-	color: #0ca2d9;
+	color: #7252c4;
 }
 
 /* Main Container Headings Colour */
@@ -425,7 +431,7 @@ em{
 }
 
 .fader .flex-control-paging li a.flex-active, .quote .flex-control-paging li a.flex-active {
-	background: #0ca2d9; /* Change colour of iphone nav dots when active */
+	background: #29caa5; /* Change colour of iphone nav dots when active */
 	cursor: default;
 }
 .fader .slides li img{
