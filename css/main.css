@@ -34,6 +34,11 @@
   border-radius: 3px;
 }
 
+#partners-link:hover {
+	background-color: white;
+	color: #444349;
+}
+
 .gfyitem{
 	top:0!important;
 }
