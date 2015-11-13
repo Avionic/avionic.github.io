@@ -563,7 +563,15 @@ ul.social-link a{
 	 opacity: 1;
 }
 
-
+#disclaim {
+	color:#aabdcd;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	line-height:28px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+}
 
 /* ==========================================================================
    09. Lip Ups
